@@ -1,0 +1,28 @@
+{
+  "name": "react-hot-boilerplate",
+  "version": "1.0.0",
+  "description": "A starter project for getting up and running with react, redux, webpack, and hot reloading",
+  "main": "index.js",
+  "scripts": {
+    "test": "node devServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krefsar/react-hot-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "webpack",
+    "hot"
+  ],
+  "author": "krefsar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krefsar/react-hot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/krefsar/react-hot-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
