@@ -33,6 +33,5 @@ module.exports = {
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'public') // where webpack-dev-server should look for index.html
-    },
-    debug: true
+    }
 };
