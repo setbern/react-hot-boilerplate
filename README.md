@@ -37,3 +37,12 @@ Or if you want to combine the above 2 steps:
 ```
 npm run deploy
 ```
+
+** WARNING
+npm start and npm run deploy use forever to run the server. Be sure to use
+
+```
+npm stop
+```
+
+In order to stop the server when you're finished with it.
