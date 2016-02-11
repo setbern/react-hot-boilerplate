@@ -1,7 +1,7 @@
 {
   "name": "react-hot-boilerplate",
   "version": "1.0.0",
-  "description": "A starter project for getting up and running with react, redux, webpack, and hot reloading",
+  "description": "A starter project for getting up and running with react, react-router, webpack, and hot reloading",
   "main": "server.js",
   "scripts": {
     "start": "forever stopall; forever start server.js",
@@ -31,7 +31,6 @@
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
     "forever": "^0.15.1",
-    "history": "^2.0.0",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^2.0.0",

@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './components/Hello.jsx';
+import {browserHistory, Router} from 'react-router';
+import routes from './routes.jsx';
 
-var mountPoint = document.getElementById('body-mount-point');
-ReactDOM.render(<Hello />, mountPoint);
+var bodyMount = document.getElementById('body-mount-point');
+
+ReactDOM.render(
+    <Router history={browserHistory} >
+        {routes}
+    </Router>
+, bodyMount);
